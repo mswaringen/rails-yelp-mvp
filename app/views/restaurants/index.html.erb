@@ -1,0 +1,9 @@
+<% @restaurants.each do |rest| %>
+  <div>
+    <!-- <h3><%= rest.name %></h3> -->
+    <h3><%= link_to rest.name, restaurant_path(rest) %></h3>
+    <p>Category: <%=rest.category%></p>
+    <p>Address: <%= rest.address %></p>
+    <p>Phone Number: <%=  rest.phone_number%></p>
+  </div>
+<% end %>

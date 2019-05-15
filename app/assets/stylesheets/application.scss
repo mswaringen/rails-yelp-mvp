@@ -11,3 +11,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+div {
+  padding: 20px;
+}
+
+.container {
+  box-shadow: 0 0 15px grey;
+  padding: 50px;
+}
